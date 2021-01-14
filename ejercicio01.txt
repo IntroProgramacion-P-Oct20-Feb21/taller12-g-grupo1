@@ -1,0 +1,16 @@
+1.  Inicio
+2.  funcion principal ()
+3.	indice, i[0-n]	
+4.	arreglo1(4), i[0-n] <-- {1, 2, 5, 6}
+5.	arreglo2(4), i[0-n] <-- {9, 8, 7, 1}
+6.	Para(indice<--0, indice<4, 1) haga
+7.		generarOperacion(arreglo1[indice], arreglo2[indice])                       
+8.	Fin_Para 
+9.  Fin funcion principal
+10.
+11. funcion generarOperacion(a, i; b, i)
+12.	z, i[0-n]
+13.     z <-- (a**2 + b**2) + a * b
+14.	Escribir "El valor de z es " + z
+15. Fin funcion generarOperacion
+16. Fin

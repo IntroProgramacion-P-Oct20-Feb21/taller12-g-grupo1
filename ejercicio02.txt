@@ -1,0 +1,41 @@
+1.  Inicio
+2.  funcion principal()
+3.  opcion, i[0-n]
+4.  cadenaFinal <-- ""
+5.  Escribir "Ingrese 1 si desea ingresar la informacion de autos"
+6.  Escribir "Ingrese 2 si desea ingresar la informacion de motos"
+7.  Leer opcion
+8.  Si (opcion == 1) entonces
+9.      cadenaFinal <-- obtenerAutos()
+10.	Escribir cadenaFinal
+11. De lo contrario
+12. 	Si (opcion == 2) entonces
+13. 	cadenaFinal <-- obtenerMotos()
+14.	Escribir cadenaFinal
+15. 	Fin si
+16. Fin si
+17. fin funcion principal()
+18. 
+19. funcion obtenerAutos() : x
+20. mensaje , x(20)[{a-z},{A-Z}, {BS}]
+21. marca, x(20)[{a-z}, {A-Z}, {BS}]
+22. año, i[0-n]
+23. Escribir "Ingrese la marca del auto"
+24. Leer marca
+25. Escribir "Ingrese el año de fabricación del auto"
+26. Leer año
+27. mensaje <-- "Auto marca "+ marca +" con año de fabricacion "+ año
+28  return mensaje
+29. fin funcion obtenerAutos()
+30.
+31. funcion obtenerMotos()
+32. motor,x(20)[{a-z}, {BS}]
+33. asientos,i[0-n]
+34. Escribir "Ingrese el tipò de motor de la Moto"
+35. Leer motor
+36. Escribir "Ingrese el número de asientos de la Moto"
+37. Leer asientos
+38. mensaje <-- "Moto con motor a "+ motor +" y "+ asientos +" asientos "
+39. return mensaje
+40. fin funcion obtenerMotos()
+41. Fin
